@@ -22,8 +22,16 @@
 		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
-		46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
-		46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */; };
+		479330E41ADA663600AEE20C /* boss.c3b in Resources */ = {isa = PBXBuildFile; fileRef = 479330E31ADA663600AEE20C /* boss.c3b */; };
+		479330E51ADA663600AEE20C /* boss.c3b in Resources */ = {isa = PBXBuildFile; fileRef = 479330E31ADA663600AEE20C /* boss.c3b */; };
+		479330E71ADA665B00AEE20C /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = 479330E61ADA665B00AEE20C /* boss.png */; };
+		479330E81ADA665B00AEE20C /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = 479330E61ADA665B00AEE20C /* boss.png */; };
+		479330EA1ADA669000AEE20C /* boss.obj in Resources */ = {isa = PBXBuildFile; fileRef = 479330E91ADA669000AEE20C /* boss.obj */; };
+		479330EB1ADA669000AEE20C /* boss.obj in Resources */ = {isa = PBXBuildFile; fileRef = 479330E91ADA669000AEE20C /* boss.obj */; };
+		479330EE1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330EC1ADA9A9700AEE20C /* LaunchScene.cpp */; };
+		479330EF1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330EC1ADA9A9700AEE20C /* LaunchScene.cpp */; };
+		479330F31ADAA78900AEE20C /* PublicAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F11ADAA78900AEE20C /* PublicAPI.cpp */; };
+		479330F41ADAA78900AEE20C /* PublicAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F11ADAA78900AEE20C /* PublicAPI.cpp */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -112,8 +120,13 @@
 		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelloWorldScene.cpp; sourceTree = "<group>"; };
-		46880B8719C43A87006E1F66 /* HelloWorldScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldScene.h; sourceTree = "<group>"; };
+		479330E31ADA663600AEE20C /* boss.c3b */ = {isa = PBXFileReference; lastKnownFileType = file; path = boss.c3b; sourceTree = "<group>"; };
+		479330E61ADA665B00AEE20C /* boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss.png; sourceTree = "<group>"; };
+		479330E91ADA669000AEE20C /* boss.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boss.obj; sourceTree = "<group>"; };
+		479330EC1ADA9A9700AEE20C /* LaunchScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LaunchScene.cpp; sourceTree = "<group>"; };
+		479330ED1ADA9A9700AEE20C /* LaunchScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScene.h; sourceTree = "<group>"; };
+		479330F11ADAA78900AEE20C /* PublicAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PublicAPI.cpp; sourceTree = "<group>"; };
+		479330F21ADAA78900AEE20C /* PublicAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicAPI.h; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -235,9 +248,9 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				46880B8319C43A87006E1F66 /* Classes */,
 				46880B7519C43A67006E1F66 /* Resources */,
-				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				080E96DDFE201D6D7F000001 /* ios */,
 				503AE10617EB990700D1A890 /* mac */,
@@ -272,6 +285,9 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				479330E91ADA669000AEE20C /* boss.obj */,
+				479330E61ADA665B00AEE20C /* boss.png */,
+				479330E31ADA663600AEE20C /* boss.c3b */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -287,8 +303,10 @@
 			children = (
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				46880B8619C43A87006E1F66 /* HelloWorldScene.cpp */,
-				46880B8719C43A87006E1F66 /* HelloWorldScene.h */,
+				479330EC1ADA9A9700AEE20C /* LaunchScene.cpp */,
+				479330ED1ADA9A9700AEE20C /* LaunchScene.h */,
+				479330F11ADAA78900AEE20C /* PublicAPI.cpp */,
+				479330F21ADAA78900AEE20C /* PublicAPI.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -449,6 +467,7 @@
 				46880B8119C43A67006E1F66 /* HelloWorld.png in Resources */,
 				46880B7D19C43A67006E1F66 /* CloseSelected.png in Resources */,
 				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				479330EA1ADA669000AEE20C /* boss.obj in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
@@ -462,6 +481,8 @@
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
+				479330E71ADA665B00AEE20C /* boss.png in Resources */,
+				479330E41ADA663600AEE20C /* boss.c3b in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 			);
@@ -473,8 +494,11 @@
 			files = (
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
+				479330E81ADA665B00AEE20C /* boss.png in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
+				479330E51ADA663600AEE20C /* boss.c3b in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
+				479330EB1ADA669000AEE20C /* boss.obj in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
 			);
@@ -488,10 +512,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				479330EE1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				479330F31ADAA78900AEE20C /* PublicAPI.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,8 +525,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				479330EF1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
+				479330F41ADAA78900AEE20C /* PublicAPI.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
