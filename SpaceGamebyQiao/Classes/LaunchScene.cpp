@@ -43,21 +43,6 @@ bool LaunchScene::init()
     vanishing->setGlobalZOrder(-1);
     addChild(vanishing);
     
-//    //添加尾气粒子效果
-//    auto flare = ParticleSystemQuad::create("missileFlare.plist");
-//    flare->setScale(3);
-//    float originX = -9.0f;
-//    float originY = 156.0f;
-//    float originZ = 9.0f;
-//    flare->setTotalParticles(20);
-//    flare->setRotation3D(Vec3(-originX,-originY,-originZ));
-//    flare->setPosition(convertToNodeSpace(Point(300, 0)));
-//    flare->setPositionType(tPositionType::GROUPED);
-//    flare->setStartColor(Color4F(0, 0.99, 1, 1));
-//    flare->setGlobalZOrder(-2);
-//    fighter->addChild(flare, -1);
-    
-    
     return true;
 }
 

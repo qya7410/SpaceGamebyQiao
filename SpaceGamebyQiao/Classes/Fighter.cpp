@@ -33,6 +33,38 @@ bool Fighter::init()
         this->setRotation3D(Vec3(originX, originY, originZ));
         this->addChild(_model);
         this->scheduleUpdate();
+        
+        //添加尾气粒子效果
+        auto flare1 = ParticleSystemQuad::create("missileFlare.plist");
+        flare1->setScale(0.07);
+        float originX = -9.0f;
+        float originY = 156.0f;
+        float originZ = 9.0f;
+        flare1->setTotalParticles(20);
+        flare1->setRotation3D(Vec3(-originX,-originY,-originZ));
+        flare1->setPosition3D(Vec3(6.4, -0.7, 2.3));
+        flare1->setPositionType(tPositionType::GROUPED);
+        flare1->setStartColor(Color4F(0, 0.99, 1, 1));
+        _model->addChild(flare1, -1);
+        
+        auto flare2 = ParticleSystemQuad::create("missileFlare.plist");
+        flare2->setScale(0.07);
+        
+        flare2->setTotalParticles(20);
+        flare2->setRotation3D(Vec3(-originX,-originY,-originZ));
+        flare2->setPosition3D(Vec3(-6.4, -0.7, 2.3));
+        flare2->setPositionType(tPositionType::GROUPED);
+        flare2->setStartColor(Color4F(0, 0.99, 1, 1));
+        _model->addChild(flare2, -1);
+        
+        auto emis = ParticleSystemQuad::create("menuEmission.plist");
+        emis->setScale(0.05);
+        emis->setRotation3D(Vec3(originX,originY, -180));
+        //emis->setPosition(40, 0);
+        emis->setPositionType(tPositionType::GROUPED);
+        emis->setRotation(-3);
+        emis->setPosition3D(Vec3(0, -0.7, 5.0));
+        _model->addChild(emis, -2);
     }
     
     return true;
