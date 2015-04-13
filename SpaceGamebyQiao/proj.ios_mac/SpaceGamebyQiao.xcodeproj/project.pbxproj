@@ -32,6 +32,20 @@
 		479330EF1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330EC1ADA9A9700AEE20C /* LaunchScene.cpp */; };
 		479330F31ADAA78900AEE20C /* PublicAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F11ADAA78900AEE20C /* PublicAPI.cpp */; };
 		479330F41ADAA78900AEE20C /* PublicAPI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F11ADAA78900AEE20C /* PublicAPI.cpp */; };
+		479330F71ADAB22B00AEE20C /* Fighter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F51ADAB22B00AEE20C /* Fighter.cpp */; };
+		479330F81ADAB22B00AEE20C /* Fighter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F51ADAB22B00AEE20C /* Fighter.cpp */; };
+		479330FB1ADAB41300AEE20C /* GameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F91ADAB41300AEE20C /* GameEntity.cpp */; };
+		479330FC1ADAB41300AEE20C /* GameEntity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 479330F91ADAB41300AEE20C /* GameEntity.cpp */; };
+		479330FF1ADB582C00AEE20C /* fighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 479330FD1ADB582C00AEE20C /* fighter.png */; };
+		479331001ADB582C00AEE20C /* fighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 479330FD1ADB582C00AEE20C /* fighter.png */; };
+		479331011ADB582C00AEE20C /* fighter.obj in Resources */ = {isa = PBXBuildFile; fileRef = 479330FE1ADB582C00AEE20C /* fighter.obj */; };
+		479331021ADB582C00AEE20C /* fighter.obj in Resources */ = {isa = PBXBuildFile; fileRef = 479330FE1ADB582C00AEE20C /* fighter.obj */; };
+		479331071ADB59CC00AEE20C /* vanishingPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479331041ADB59CC00AEE20C /* vanishingPoint.plist */; };
+		479331081ADB59CC00AEE20C /* vanishingPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479331041ADB59CC00AEE20C /* vanishingPoint.plist */; };
+		4793310A1ADB63DD00AEE20C /* missileFlare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479331091ADB63DD00AEE20C /* missileFlare.plist */; };
+		4793310B1ADB63DD00AEE20C /* missileFlare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479331091ADB63DD00AEE20C /* missileFlare.plist */; };
+		4793310D1ADB69C600AEE20C /* menuEmission.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4793310C1ADB69C600AEE20C /* menuEmission.plist */; };
+		4793310E1ADB69C600AEE20C /* menuEmission.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4793310C1ADB69C600AEE20C /* menuEmission.plist */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -127,6 +141,15 @@
 		479330ED1ADA9A9700AEE20C /* LaunchScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchScene.h; sourceTree = "<group>"; };
 		479330F11ADAA78900AEE20C /* PublicAPI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PublicAPI.cpp; sourceTree = "<group>"; };
 		479330F21ADAA78900AEE20C /* PublicAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicAPI.h; sourceTree = "<group>"; };
+		479330F51ADAB22B00AEE20C /* Fighter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fighter.cpp; sourceTree = "<group>"; };
+		479330F61ADAB22B00AEE20C /* Fighter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fighter.h; sourceTree = "<group>"; };
+		479330F91ADAB41300AEE20C /* GameEntity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameEntity.cpp; sourceTree = "<group>"; };
+		479330FA1ADAB41300AEE20C /* GameEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEntity.h; sourceTree = "<group>"; };
+		479330FD1ADB582C00AEE20C /* fighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fighter.png; sourceTree = "<group>"; };
+		479330FE1ADB582C00AEE20C /* fighter.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fighter.obj; sourceTree = "<group>"; };
+		479331041ADB59CC00AEE20C /* vanishingPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vanishingPoint.plist; sourceTree = "<group>"; };
+		479331091ADB63DD00AEE20C /* missileFlare.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = missileFlare.plist; sourceTree = "<group>"; };
+		4793310C1ADB69C600AEE20C /* menuEmission.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menuEmission.plist; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -285,9 +308,14 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4793310C1ADB69C600AEE20C /* menuEmission.plist */,
+				479331091ADB63DD00AEE20C /* missileFlare.plist */,
+				479331041ADB59CC00AEE20C /* vanishingPoint.plist */,
 				479330E91ADA669000AEE20C /* boss.obj */,
 				479330E61ADA665B00AEE20C /* boss.png */,
 				479330E31ADA663600AEE20C /* boss.c3b */,
+				479330FD1ADB582C00AEE20C /* fighter.png */,
+				479330FE1ADB582C00AEE20C /* fighter.obj */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -305,6 +333,10 @@
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				479330EC1ADA9A9700AEE20C /* LaunchScene.cpp */,
 				479330ED1ADA9A9700AEE20C /* LaunchScene.h */,
+				479330F51ADAB22B00AEE20C /* Fighter.cpp */,
+				479330F61ADAB22B00AEE20C /* Fighter.h */,
+				479330F91ADAB41300AEE20C /* GameEntity.cpp */,
+				479330FA1ADAB41300AEE20C /* GameEntity.h */,
 				479330F11ADAA78900AEE20C /* PublicAPI.cpp */,
 				479330F21ADAA78900AEE20C /* PublicAPI.h */,
 			);
@@ -407,7 +439,7 @@
 				LastUpgradeCheck = 0500;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = MDDB52YB8L;
+						DevelopmentTeam = QRR5JC63ES;
 					};
 				};
 			};
@@ -461,6 +493,7 @@
 			files = (
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				4793310A1ADB63DD00AEE20C /* missileFlare.plist in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
@@ -470,11 +503,14 @@
 				479330EA1ADA669000AEE20C /* boss.obj in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
+				4793310D1ADB69C600AEE20C /* menuEmission.plist in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				479331011ADB582C00AEE20C /* fighter.obj in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				479331071ADB59CC00AEE20C /* vanishingPoint.plist in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
@@ -483,6 +519,7 @@
 				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
 				479330E71ADA665B00AEE20C /* boss.png in Resources */,
 				479330E41ADA663600AEE20C /* boss.c3b in Resources */,
+				479330FF1ADB582C00AEE20C /* fighter.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
 			);
@@ -493,14 +530,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */,
+				479331021ADB582C00AEE20C /* fighter.obj in Resources */,
+				479331081ADB59CC00AEE20C /* vanishingPoint.plist in Resources */,
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				479330E81ADA665B00AEE20C /* boss.png in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
 				479330E51ADA663600AEE20C /* boss.c3b in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
 				479330EB1ADA669000AEE20C /* boss.obj in Resources */,
+				4793310B1ADB63DD00AEE20C /* missileFlare.plist in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
+				4793310E1ADB69C600AEE20C /* menuEmission.plist in Resources */,
+				479331001ADB582C00AEE20C /* fighter.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,8 +556,10 @@
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				479330EE1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				479330F71ADAB22B00AEE20C /* Fighter.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				479330FB1ADAB41300AEE20C /* GameEntity.cpp in Sources */,
 				479330F31ADAA78900AEE20C /* PublicAPI.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,8 +570,10 @@
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				479330EF1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */,
+				479330FC1ADAB41300AEE20C /* GameEntity.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				479330F41ADAA78900AEE20C /* PublicAPI.cpp in Sources */,
+				479330F81ADAB22B00AEE20C /* Fighter.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

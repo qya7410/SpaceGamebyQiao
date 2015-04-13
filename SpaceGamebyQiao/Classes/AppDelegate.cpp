@@ -28,6 +28,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     // initialize director
     auto director = Director::getInstance();
     auto glview = director->getOpenGLView();
+    
     if(!glview) {
 
         glview = GLViewImpl::createWithRect("SpaceGamebyQiao", Rect(0, 0, 800*(750.0/1334.0), 800));
