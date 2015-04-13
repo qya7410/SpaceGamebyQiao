@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>39D5F0C1-DD69-4594-B82F-586AC54A31F1</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>SpaceGamebyQiao</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>2C4D4451DDD0B5A0EEEBCC466FDD93E1D76E39D0</key>
 		<string>github.com:DevQiao/SpaceGamebyQiao.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SpaceGamebyQiao/proj.ios_mac/SpaceGamebyQiao.xcodeproj/project.xcworkspace</string>
+	<string>SpaceGamebyQiao/proj.ios_mac/SpaceGamebyQiao.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>2C4D4451DDD0B5A0EEEBCC466FDD93E1D76E39D0</key>
