@@ -57,14 +57,14 @@ bool Fighter::init()
         flare2->setStartColor(Color4F(0, 0.99, 1, 1));
         _model->addChild(flare2, -1);
         
-        auto emis = ParticleSystemQuad::create("menuEmission.plist");
-        emis->setScale(0.05);
-        emis->setRotation3D(Vec3(originX,originY, -180));
+        auto emission = ParticleSystemQuad::create("launchFighterEmission.plist");
+        emission->setScale(0.05);
+        emission->setRotation3D(Vec3(originX,originY, -180));
         //emis->setPosition(40, 0);
-        emis->setPositionType(tPositionType::GROUPED);
-        emis->setRotation(-3);
-        emis->setPosition3D(Vec3(0, -0.7, 5.0));
-        _model->addChild(emis, -2);
+        emission->setPositionType(tPositionType::GROUPED);
+        emission->setRotation(-3);
+        emission->setPosition3D(Vec3(0, -0.7, 5.0));
+        _model->addChild(emission, -2);
     }
     
     return true;

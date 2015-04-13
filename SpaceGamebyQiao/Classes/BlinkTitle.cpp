@@ -25,7 +25,6 @@ bool BlinkTitle::init(const std::string & fileName)
     auto stencil = content;
     
     auto spark = Sprite::create("spark.png");
-    //spark->setPosition(-content->getContentSize().width, 0);
     
     cliper->setAlphaThreshold(0.5f);
     cliper->setStencil(stencil);
@@ -40,8 +39,6 @@ bool BlinkTitle::init(const std::string & fileName)
     auto seq = Sequence::create(positionReset, moveTo, NULL);
     auto action = RepeatForever::create(seq);
     spark->runAction(action);
-    
-    
     
     return true;
 }

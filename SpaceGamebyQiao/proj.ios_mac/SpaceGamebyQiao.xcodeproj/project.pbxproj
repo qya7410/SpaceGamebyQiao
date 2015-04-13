@@ -22,6 +22,18 @@
 		46880B8219C43A67006E1F66 /* HelloWorld.png in Resources */ = {isa = PBXBuildFile; fileRef = 46880B7A19C43A67006E1F66 /* HelloWorld.png */; };
 		46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
 		46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 46880B8419C43A87006E1F66 /* AppDelegate.cpp */; };
+		4767D8C11ADBA03E004C1CD2 /* launchScenePicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8C01ADBA03E004C1CD2 /* launchScenePicture.png */; };
+		4767D8C21ADBA03E004C1CD2 /* launchScenePicture.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8C01ADBA03E004C1CD2 /* launchScenePicture.png */; };
+		4767D8C71ADBA1DC004C1CD2 /* launchScenePicture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8C61ADBA1DC004C1CD2 /* launchScenePicture.plist */; };
+		4767D8C81ADBA1DC004C1CD2 /* launchScenePicture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8C61ADBA1DC004C1CD2 /* launchScenePicture.plist */; };
+		4767D8CC1ADBA53D004C1CD2 /* BlinkTitle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4767D8CA1ADBA53D004C1CD2 /* BlinkTitle.cpp */; };
+		4767D8CD1ADBA53D004C1CD2 /* BlinkTitle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4767D8CA1ADBA53D004C1CD2 /* BlinkTitle.cpp */; };
+		4767D8CF1ADBA5B2004C1CD2 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8CE1ADBA5B2004C1CD2 /* spark.png */; };
+		4767D8D01ADBA5B2004C1CD2 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8CE1ADBA5B2004C1CD2 /* spark.png */; };
+		4767D8D31ADBA903004C1CD2 /* titleInLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8D21ADBA903004C1CD2 /* titleInLaunch.png */; };
+		4767D8D41ADBA903004C1CD2 /* titleInLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8D21ADBA903004C1CD2 /* titleInLaunch.png */; };
+		4767D8D61ADBB234004C1CD2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8D51ADBB234004C1CD2 /* background.png */; };
+		4767D8D71ADBB234004C1CD2 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4767D8D51ADBB234004C1CD2 /* background.png */; };
 		479330E41ADA663600AEE20C /* boss.c3b in Resources */ = {isa = PBXBuildFile; fileRef = 479330E31ADA663600AEE20C /* boss.c3b */; };
 		479330E51ADA663600AEE20C /* boss.c3b in Resources */ = {isa = PBXBuildFile; fileRef = 479330E31ADA663600AEE20C /* boss.c3b */; };
 		479330E71ADA665B00AEE20C /* boss.png in Resources */ = {isa = PBXBuildFile; fileRef = 479330E61ADA665B00AEE20C /* boss.png */; };
@@ -44,8 +56,8 @@
 		479331081ADB59CC00AEE20C /* vanishingPoint.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479331041ADB59CC00AEE20C /* vanishingPoint.plist */; };
 		4793310A1ADB63DD00AEE20C /* missileFlare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479331091ADB63DD00AEE20C /* missileFlare.plist */; };
 		4793310B1ADB63DD00AEE20C /* missileFlare.plist in Resources */ = {isa = PBXBuildFile; fileRef = 479331091ADB63DD00AEE20C /* missileFlare.plist */; };
-		4793310D1ADB69C600AEE20C /* menuEmission.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4793310C1ADB69C600AEE20C /* menuEmission.plist */; };
-		4793310E1ADB69C600AEE20C /* menuEmission.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4793310C1ADB69C600AEE20C /* menuEmission.plist */; };
+		4793310D1ADB69C600AEE20C /* launchFighterEmission.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4793310C1ADB69C600AEE20C /* launchFighterEmission.plist */; };
+		4793310E1ADB69C600AEE20C /* launchFighterEmission.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4793310C1ADB69C600AEE20C /* launchFighterEmission.plist */; };
 		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
 		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
 		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
@@ -134,6 +146,13 @@
 		46880B7A19C43A67006E1F66 /* HelloWorld.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HelloWorld.png; sourceTree = "<group>"; };
 		46880B8419C43A87006E1F66 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
 		46880B8519C43A87006E1F66 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4767D8C01ADBA03E004C1CD2 /* launchScenePicture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScenePicture.png; sourceTree = "<group>"; };
+		4767D8C61ADBA1DC004C1CD2 /* launchScenePicture.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = launchScenePicture.plist; sourceTree = "<group>"; };
+		4767D8CA1ADBA53D004C1CD2 /* BlinkTitle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BlinkTitle.cpp; sourceTree = "<group>"; };
+		4767D8CB1ADBA53D004C1CD2 /* BlinkTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlinkTitle.h; sourceTree = "<group>"; };
+		4767D8CE1ADBA5B2004C1CD2 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		4767D8D21ADBA903004C1CD2 /* titleInLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = titleInLaunch.png; sourceTree = "<group>"; };
+		4767D8D51ADBB234004C1CD2 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		479330E31ADA663600AEE20C /* boss.c3b */ = {isa = PBXFileReference; lastKnownFileType = file; path = boss.c3b; sourceTree = "<group>"; };
 		479330E61ADA665B00AEE20C /* boss.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boss.png; sourceTree = "<group>"; };
 		479330E91ADA669000AEE20C /* boss.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = boss.obj; sourceTree = "<group>"; };
@@ -149,7 +168,7 @@
 		479330FE1ADB582C00AEE20C /* fighter.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fighter.obj; sourceTree = "<group>"; };
 		479331041ADB59CC00AEE20C /* vanishingPoint.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = vanishingPoint.plist; sourceTree = "<group>"; };
 		479331091ADB63DD00AEE20C /* missileFlare.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = missileFlare.plist; sourceTree = "<group>"; };
-		4793310C1ADB69C600AEE20C /* menuEmission.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = menuEmission.plist; sourceTree = "<group>"; };
+		4793310C1ADB69C600AEE20C /* launchFighterEmission.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = launchFighterEmission.plist; sourceTree = "<group>"; };
 		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
 		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
@@ -273,6 +292,7 @@
 			children = (
 				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
 				46880B8319C43A87006E1F66 /* Classes */,
+				4767D8C91ADBA4D7004C1CD2 /* OutsideClasses */,
 				46880B7519C43A67006E1F66 /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				080E96DDFE201D6D7F000001 /* ios */,
@@ -308,7 +328,7 @@
 		46880B7519C43A67006E1F66 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4793310C1ADB69C600AEE20C /* menuEmission.plist */,
+				4793310C1ADB69C600AEE20C /* launchFighterEmission.plist */,
 				479331091ADB63DD00AEE20C /* missileFlare.plist */,
 				479331041ADB59CC00AEE20C /* vanishingPoint.plist */,
 				479330E91ADA669000AEE20C /* boss.obj */,
@@ -316,6 +336,9 @@
 				479330E31ADA663600AEE20C /* boss.c3b */,
 				479330FD1ADB582C00AEE20C /* fighter.png */,
 				479330FE1ADB582C00AEE20C /* fighter.obj */,
+				4767D8D51ADBB234004C1CD2 /* background.png */,
+				4767D8C61ADBA1DC004C1CD2 /* launchScenePicture.plist */,
+				4767D8C01ADBA03E004C1CD2 /* launchScenePicture.png */,
 				521A8EA819F11F5000D177D7 /* fonts */,
 				3EACC98E19EE6D4300EB3C5E /* res */,
 				46880B7619C43A67006E1F66 /* CloseNormal.png */,
@@ -342,6 +365,26 @@
 			);
 			name = Classes;
 			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		4767D8C91ADBA4D7004C1CD2 /* OutsideClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4767D8D11ADBA5BD004C1CD2 /* BlinkTitle */,
+			);
+			name = OutsideClasses;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		4767D8D11ADBA5BD004C1CD2 /* BlinkTitle */ = {
+			isa = PBXGroup;
+			children = (
+				4767D8CA1ADBA53D004C1CD2 /* BlinkTitle.cpp */,
+				4767D8CB1ADBA53D004C1CD2 /* BlinkTitle.h */,
+				4767D8CE1ADBA5B2004C1CD2 /* spark.png */,
+				4767D8D21ADBA903004C1CD2 /* titleInLaunch.png */,
+			);
+			name = BlinkTitle;
 			sourceTree = "<group>";
 		};
 		503AE0F517EB97AB00D1A890 /* Icons */ = {
@@ -441,6 +484,9 @@
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = QRR5JC63ES;
 					};
+					5087E73D17EB910900C73F5D = {
+						DevelopmentTeam = QRR5JC63ES;
+					};
 				};
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SpaceGamebyQiao" */;
@@ -494,6 +540,7 @@
 				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
 				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
 				4793310A1ADB63DD00AEE20C /* missileFlare.plist in Resources */,
+				4767D8C11ADBA03E004C1CD2 /* launchScenePicture.png in Resources */,
 				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
 				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
 				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
@@ -503,16 +550,19 @@
 				479330EA1ADA669000AEE20C /* boss.obj in Resources */,
 				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
 				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
-				4793310D1ADB69C600AEE20C /* menuEmission.plist in Resources */,
+				4793310D1ADB69C600AEE20C /* launchFighterEmission.plist in Resources */,
 				521A8EA919F11F5000D177D7 /* fonts in Resources */,
 				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				4767D8C71ADBA1DC004C1CD2 /* launchScenePicture.plist in Resources */,
 				479331011ADB582C00AEE20C /* fighter.obj in Resources */,
 				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
+				4767D8D31ADBA903004C1CD2 /* titleInLaunch.png in Resources */,
 				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
 				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
 				479331071ADB59CC00AEE20C /* vanishingPoint.plist in Resources */,
 				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
 				3EACC98F19EE6D4300EB3C5E /* res in Resources */,
+				4767D8D61ADBB234004C1CD2 /* background.png in Resources */,
 				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
 				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
 				5087E77E17EB970100C73F5D /* Default.png in Resources */,
@@ -522,6 +572,7 @@
 				479330FF1ADB582C00AEE20C /* fighter.png in Resources */,
 				46880B7B19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+				4767D8CF1ADBA5B2004C1CD2 /* spark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -535,14 +586,19 @@
 				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
 				479330E81ADA665B00AEE20C /* boss.png in Resources */,
 				3EACC99019EE6D4300EB3C5E /* res in Resources */,
+				4767D8D41ADBA903004C1CD2 /* titleInLaunch.png in Resources */,
 				479330E51ADA663600AEE20C /* boss.c3b in Resources */,
 				521A8EAA19F11F5000D177D7 /* fonts in Resources */,
 				479330EB1ADA669000AEE20C /* boss.obj in Resources */,
 				4793310B1ADB63DD00AEE20C /* missileFlare.plist in Resources */,
+				4767D8D71ADBB234004C1CD2 /* background.png in Resources */,
 				46880B7C19C43A67006E1F66 /* CloseNormal.png in Resources */,
 				46880B7E19C43A67006E1F66 /* CloseSelected.png in Resources */,
-				4793310E1ADB69C600AEE20C /* menuEmission.plist in Resources */,
+				4767D8C81ADBA1DC004C1CD2 /* launchScenePicture.plist in Resources */,
+				4767D8C21ADBA03E004C1CD2 /* launchScenePicture.png in Resources */,
+				4793310E1ADB69C600AEE20C /* launchFighterEmission.plist in Resources */,
 				479331001ADB582C00AEE20C /* fighter.png in Resources */,
+				4767D8D01ADBA5B2004C1CD2 /* spark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +609,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4767D8CC1ADBA53D004C1CD2 /* BlinkTitle.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				479330EE1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
@@ -572,6 +629,7 @@
 				479330EF1ADA9A9700AEE20C /* LaunchScene.cpp in Sources */,
 				479330FC1ADAB41300AEE20C /* GameEntity.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+				4767D8CD1ADBA53D004C1CD2 /* BlinkTitle.cpp in Sources */,
 				479330F41ADAA78900AEE20C /* PublicAPI.cpp in Sources */,
 				479330F81ADAB22B00AEE20C /* Fighter.cpp in Sources */,
 			);
@@ -597,8 +655,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COMPRESS_PNG_FILES = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
@@ -623,7 +681,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b929e898-f44f-4bfa-80a8-aead04550f45";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
@@ -635,8 +693,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COMPRESS_PNG_FILES = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -659,7 +717,7 @@
 					"$(_COCOS_LIB_IOS_BEGIN)",
 					"$(_COCOS_LIB_IOS_END)",
 				);
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "b929e898-f44f-4bfa-80a8-aead04550f45";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
@@ -674,6 +732,8 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -696,6 +756,7 @@
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Debug;
@@ -707,6 +768,8 @@
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
 				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = mac/Prefix.pch;
@@ -727,6 +790,7 @@
 					"$(_COCOS_LIB_MAC_BEGIN)",
 					"$(_COCOS_LIB_MAC_END)",
 				);
+				PROVISIONING_PROFILE = "";
 				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
 			};
 			name = Release;
